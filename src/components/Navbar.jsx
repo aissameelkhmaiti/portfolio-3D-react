@@ -49,10 +49,13 @@ const Navbar = () => {
         > 
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Jaser &nbsp;
-            <span className='sm:block hidden'> | Full-Stack Developer</span>
+            Aissame &nbsp;
+        
           </p>
+     
         </Link>
+
+        
             
             <div className="flex gap-4 ml-5">
             <a href="https://www.linkedin.com/in/ahmedullahsyed/" target="_blank">
