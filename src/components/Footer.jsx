@@ -12,10 +12,10 @@ const Footer = () => {
         
         {/* Social Icons */}
         <div className="flex gap-4">
-          <a href="https://www.linkedin.com/in/ahmedullahsyed/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/aissame-elkhmaiti/" target="_blank" rel="noopener noreferrer">
             <img src={linkedin} alt="LinkedIn" className='w-9 h-9 hover:opacity-80 transition' />
           </a>
-          <a href="https://www.linkedin.com/in/aissame-elkhmaiti/" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/aissameelkhmaiti" target="_blank" rel="noopener noreferrer">
             <img src={github} alt="GitHub" className='w-9 h-9 hover:opacity-80 transition' />
           </a>
           <a href="https://www.instagram.com/aissame_elkhmaiti/" target="_blank" rel="noopener noreferrer">
