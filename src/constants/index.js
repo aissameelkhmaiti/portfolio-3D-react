@@ -28,7 +28,14 @@ import {
   sun,
   payment,
   intelligence2,
-  rental
+  rental,
+  movie,
+  incident,
+  meteo,
+  portfoliow,
+  AlumHamza,
+  mypi,
+  dashboradAlum
 } from "../assets";
 
 export const navLinks = [
@@ -39,6 +46,14 @@ export const navLinks = [
   {
     id: "work",
     title: "Work",
+  },
+  {
+    id: "skills",
+    title: "Skills",
+  },
+  {
+    id: "projects",
+    title: "Project",
   },
   {
     id: "contact",
@@ -52,7 +67,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Full Stack Developer",
     icon: mobile,
   },
   {
@@ -60,9 +75,18 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Frontend Developer",
     icon: creator,
   },
+];
+
+export const Aboutimg = [
+   {
+    name: "Me",
+    icon: mypi,
+  },
+  
+
 ];
 
 const technologies = [
@@ -115,66 +139,48 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
+    name: "WordPress",
     icon: docker,
   },
 ];
 
 const experiences = [
   {
-    title: "Software Developer",
-    company_name: "Tata Consultancy Services",
+    title: "Full Stack MERN Developer",
+    company_name: "Arkx Talent Factory",
     icon: tcs,
     iconBg: "#383E56",
-    date: "September 2021 -  Present",
+    date: "January 2024 - June 2024",
     points: [
-      // "Developing and maintaining web applications using React.js, Next.js, Express.js and other related technologies.",
-      "Developed and maintained reliable web applications with user-friendly interfaces using ReactJS, Next.js, and Tailwind CSS, collaborating with cross-functional teams to meet project requirements",
-      "Managed databases (MySQL, MongoDB) and developed scalable JavaScript applications using Express.js, ensuring data integrity, security, and maintainability.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      // "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-},
-  {
-    title: "Founder and CEO",
-    company_name: "IntElligence Tech Solutions",
-    icon: intelligence,
-    iconBg: "#000000",
-    date: "July 2022 - Present",
-    points: [
-      "As founder and CEO, I lead IntElligence Tech Solutions in creating cutting-edge web applications, staying ahead of industry trends.",
-      "I oversee the entire development process, ensuring top-quality code and seamless, responsive applications using the latest technologies.",
-      "I translate client needs into robust, user-friendly applications, delivering custom solutions that drive growth and engagement.",
-      "Under my leadership, we've launched numerous high-impact web applications, improving efficiency and generating significant ROI for clients.",
+      "Designed and developed a blog application using Node.js, Express, MongoDB, React, and Tailwind CSS, focusing on RESTful APIs and responsive UI.",
+      "Implemented a complete e-commerce website with the MERN stack, handling Git issues and ensuring efficient development workflows.",
+      "Created a weather web application using HTML, CSS, JavaScript, and REST APIs.",
+      "Collaborated with teams in a MERN Stack JS training program to build scalable, real-world projects.",
     ],
   },
   {
-    title: "Software Developer Intern",
-    company_name: "Sun Mobility",
+    title: "Web Developer Intern",
+    company_name: "OCP Jorf Lasfar",
     icon: sun,
     iconBg: "#E6DEDD",
-    date: "March 2021 - August 2021",
+    date: "April 2023 - June 2023",
     points: [
-      "Collaborated with a team to create and maintain web applications, gaining hands-on experience in HTML5, CSS3, and JavaScript.",
-      "Assisted in designing and developing user interfaces with React.JS, creating interactive and responsive web experiences.",
-      "Contributed to web application development and maintenance, improving performance through active participation in codebase enhancements and troubleshooting.",
-      "Gained exposure to frameworks like Bootstrap by helping create visually appealing and user-friendly web interfaces.",
+      "Developed a web-based incident management system using HTML, CSS, JavaScript, Ajax, PHP, SQL, and Bootstrap.",
     ],
   },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "Academic Project Developer",
+    company_name: "FST Settat",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "September 2023 - June 2024",
+    points: [
+      "Built an e-commerce website using HTML, CSS, Bootstrap, PHP, and MySQL as part of an academic project.",
+      "Created an interactive calculator application with JavaFX and FXML, implementing arithmetic operations and user event handling.",
+      "Managed social media pages (Facebook and Instagram), creating visual content with Canva and editing videos using Filmora.",
+    ],
+  },
+ 
 ];
 
 const testimonials = [
@@ -205,78 +211,226 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Payment App",
+
+   {
+    name: "Aluminium  Website",
     description:
-      // "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      "A full-featured web application developed using the MERN stack, designed to simulate the functionality of PayTM. This app supports user registration, authentication, and secure banking transactions. Built with modern tools and technologies such as React with Vite, Tailwind CSS for styling.",
+      " A responsive MERN stack site using Material UI and Tailwind CSS to display and manage aluminum projects.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "express.js",
+        name: "Express.js",
         color: "pink-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+       {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: AlumHamza,
+    source_code_link: "https://github.com/aissameelkhmaiti/front-end-alim",
+  },
+   {
+    name: "Aluminium  Dashboard",
+    description:
+      " An admin panel built with MERN, Material UI, and Tailwind CSS for managing aluminum project content with full CRUD operations.",
+    tags: [
+    {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+       {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dashboradAlum,
+    source_code_link: "https://github.com/aissameelkhmaiti/aluminium-mern",
+  },
+  {
+    name: "Blog App Raja",
+    description:
+      // "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "  A MERN stack blog platform with Ant Design, Tailwind CSS, and Cloudinary for rich content creation and media uploads.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+       {
+        name: "Node.js",
         color: "pink-text-gradient",
       },
     ],
     image: payment,
-    source_code_link: "https://github.com/syedahmedullah14/PayTM-Project",
+    source_code_link: "https://github.com/aissameelkhmaiti/blog-app-mongodb",
   },
   {
-    name: "Company Portfolio",
+    name: "Personal Portfolio ",
     description:
-      "Built a responsive portfolio using ReactJS, leveraging components and state management for a seamless user experience across devices. Developed a feature for dynamic theme changes, enhancing user engagement by allowing personalization of background and foreground colors through efficient state management.",
+      "A clean and responsive portfolio built with HTML, CSS, and JavaScript to present skills and projects.      ",
     tags: [
       {
-        name: "react",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "bootsrap5",
+        name: "Html",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Css",
         color: "pink-text-gradient",
       },
     ],
     image: intelligence2,
-    source_code_link: "https://int-elligence.co.uk/",
+    source_code_link: "https://aissameelkhmaiti.github.io/MyPortfolio/",
   },
   {
-    name: "Rental Management System",
+    name: "E-commerce Web Site",
     description:
-      "Developed a robust system for a construction equipment company to manage customer records, including transaction history, products, suppliers, and rental records, ensuring secure and efficient data storage and retrieval. Integrated a billing and invoicing system, allowing for accurate and streamlined financial transactions.",
+      "A dynamic PHP, MySQL, JavaScript, AJAX, and Bootstrap-based online store with product and order management features.",
     tags: [
       {
-        name: "react",
+        name: "Php",
         color: "blue-text-gradient",
       },
       {
-        name: "express.js",
+        name: "JavaScript",
         color: "green-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "MYSQL",
         color: "pink-text-gradient",
       },
       {
-        name: "aws",
+        name: "Ajax",
         color: "green-text-gradient",
       },
     ],
     image: rental,
+    source_code_link: "https://github.com/aissameelkhmaiti/site-e-commerce-php-mysql",
+  },
+   {
+    name: "Movie  Landing Page",
+    description:
+      "A visually engaging HTML/CSS landing page designed to showcase a film with responsive layout and bold visuals.",
+    tags: [
+      {
+        name: "Html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Css",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    image: movie,
+    source_code_link: "https://github.com/aissameelkhmaiti/stage-pfe",
+  },
+   {
+    name: "Incident Management ",
+    description:
+      "A web app using PHP, JavaScript, Bootstrap, AJAX, and MySQL for reporting and tracking incidents in real time.",
+    tags: [
+     {
+        name: "Php",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MYSQL",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Ajax",
+        color: "green-text-gradient",
+      },
+    ],
+    image: incident,
+    source_code_link: "https://github.com/aissameelkhmaiti/stage-pfe",
+  },
+   {
+    name: "Weather Application",
+    description:
+      " A real-time weather app built with HTML, CSS, JavaScript, and a REST API to display current conditions and forecasts.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "API RESTful",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Html",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Css",
+        color: "green-text-gradient",
+      },
+    ],
+    image: meteo,
+    source_code_link: "https://github.com/aissameelkhmaiti/Application-Meteo-javascript-api",
+  },
+   {
+    name: "WordPress Portfolio ",
+    description:
+      "A customizable and SEO-optimized portfolio built with WordPress to showcase projects and experience professionally.",
+    tags: [
+      {
+        name: "WordPress",
+        color: "blue-text-gradient",
+      },
+
+    ],
+    image: portfoliow,
     source_code_link: "https://github.com/syedahmedullah14",
   },
+   
+  
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

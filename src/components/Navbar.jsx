@@ -47,7 +47,8 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         > 
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={logo} alt="logo" className="w-9 h-9 object-cover rounded-full" />
+
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Aissame &nbsp;
         
@@ -57,17 +58,7 @@ const Navbar = () => {
 
         
             
-            <div className="flex gap-4 ml-5">
-            <a href="https://www.linkedin.com/in/ahmedullahsyed/" target="_blank">
-                <img src={linkedin} alt="" className='w-9 h-9' />
-              </a>
-            <a href="https://github.com/syedahmedullah14"  target="_blank">
-                <img src={github} alt="" className='w-9 h-9' />
-              </a>
-            <a href="https://x.com/syed_ahmedullah"  target="_blank">
-                <img src={x} alt="" className='w-9 h-9' />
-              </a>
-              </div>
+           
        
         </div>
 

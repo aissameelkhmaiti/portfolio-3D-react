@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import mypi from "./my-pi.jpg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -27,14 +28,20 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import tcs from "./company/tcs.png";
 import intelligence from "./company/intelligence.png";
-import intelligence2 from "./intelligence2.jpg";
+import intelligence2 from "./intelligence2.png";
 import sun from "./company/sun.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import payment from "./payment.jpg";
+import payment from "./payment.png";
 import rental from "./rental.png";
+import movie from "./movieapp.png";
+import incident from "./incident.png";
+import meteo from "./meteo.png";
+import portfoliow from "./portfoliow.png";
+import AlumHamza from "./AlumHamza.png";
+import dashboradAlum from "./dashboradAlum.png";
 
 export {
   logo,
@@ -55,6 +62,7 @@ export {
   nodejs,
   reactjs,
   redux,
+  mypi,
   tailwind,
   typescript,
   threejs,
@@ -70,5 +78,11 @@ export {
   sun,
   payment,
   intelligence2,
-  rental
+  rental,
+  movie,
+  incident,
+  meteo,
+  portfoliow,
+  AlumHamza,
+  dashboradAlum
 };
