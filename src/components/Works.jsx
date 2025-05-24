@@ -73,11 +73,17 @@ const ProjectCard = ({
 const Works = () => {
   const [isMobile, setIsMobile] = useState(false);
 
+  // Vérifie si l'écran est mobile
   useEffect(() => {
-    setIsMobile(window.innerWidth < 768);
-  }, []);
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
 
-  console.log("projects:", projects); // pour vérifier si la liste est vide
+    handleResize(); // Appel initial
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <>
