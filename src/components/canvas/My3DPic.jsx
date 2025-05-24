@@ -1,12 +1,11 @@
 import React from 'react';
-import img from '../../assets/my-pi.jpg'
-console.log(img)
+import img from '../../assets/my-pi.jpg';
 
 const My3DPic = () => {
   return (
-    <div className="w-96  h-100 overflow-hidden rounded-lg shadow-lg">
+    <div className="w-full max-w-sm md:max-w-md lg:max-w-lg aspect-[4/5] mx-auto overflow-hidden rounded-xl shadow-lg">
       <img
-        src={img}   // <-- replace with your actual image path or URL
+        src={img}
         alt="About me"
         className="w-full h-full object-cover"
       />
