@@ -105,12 +105,14 @@ const handleSubmit = (e) => {
             />
           </label>
 
-          <button
-            type='submit'
-            className='bg-secondary py-3 px-12 mx-40 rounded-xl outline-none w-fit text-black font-bold shadow-md shadow-primary'
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
+       <div className="flex justify-center">
+  <button
+    type="submit"
+    className="bg-secondary py-3 px-12 rounded-xl outline-none w-fit text-black font-bold shadow-md shadow-primary"
+  >
+    {loading ? "Sending..." : "Send"}
+  </button>
+</div>
         </form>
       </motion.div>
 
