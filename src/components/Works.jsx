@@ -59,12 +59,12 @@ const ProjectCard = ({
       {disableTilt ? (
         CardContent
       ) : (
-        <div
+        <Tilt
           options={{ max: 45, scale: 1, speed: 450 }}
           className='w-full'
         >
           {CardContent}
-        </div>
+        </Tilt>
       )}
     </motion.div>
   );
