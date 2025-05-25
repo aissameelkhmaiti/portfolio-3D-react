@@ -15,7 +15,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <div className={`animated-card`} style={{ animationDelay: `${index * 0.2}s` }}>
+    <div className={`animated-card`} style={{ animationDelay: `${index * 0.6}s` }}>
       <Tilt
         options={{
           max: 45,
