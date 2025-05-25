@@ -55,7 +55,7 @@ const ProjectCard = ({
   );
 
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <>
       {disableTilt ? (
         CardContent
       ) : (
@@ -63,7 +63,7 @@ const ProjectCard = ({
           {CardContent}
         </Tilt>
       )}
-    </motion.div>
+    </>
   );
 };
 
