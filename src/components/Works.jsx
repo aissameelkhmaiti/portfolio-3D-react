@@ -15,7 +15,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <div className={`animated-card`} style={{ animationDelay: `${index * 0.6}s` }}>
+    <div className={`animated-card`} style={{ animationDelay: `${index * 0.9}s` }}>
       <Tilt
         options={{
           max: 45,
@@ -68,7 +68,7 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <div className="mb-10">
+      <div className="mb-10" >
         <p className={`${styles.sectionSubText}`}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
       </div>
