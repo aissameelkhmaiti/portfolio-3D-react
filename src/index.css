@@ -203,4 +203,19 @@
   }
 }
 
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-card {
+  animation: fadeUp 0.75s ease-out forwards;
+  opacity: 0; /* Pour permettre l’animation */
+}
 
