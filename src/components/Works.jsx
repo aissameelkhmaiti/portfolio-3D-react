@@ -83,10 +83,10 @@ const Works = () => {
 
   return (
     <>
-     
+      <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText}`}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
-  
+      </motion.div>
 
       <div className='mt-20 flex flex-wrap gap-6 justify-center relative z-10'>
         {projects.map((project, index) => (
