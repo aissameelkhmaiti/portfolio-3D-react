@@ -59,7 +59,7 @@ const ProjectCard = ({
       animate="animate"
       className="sm:w-[360px] w-full"
     >
-      <Tilt
+      <div
         options={{
           max: 45,
           scale: 1,
@@ -103,7 +103,7 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-      </Tilt>
+      </div>
     </motion.div>
   );
 };
