@@ -7,7 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import mypi from "./my-pi.jpg";
-
+import bacapp from "./bacapp.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -84,5 +84,6 @@ export {
   meteo,
   portfoliow,
   AlumHamza,
-  dashboradAlum
+  dashboradAlum,
+  bacapp
 };

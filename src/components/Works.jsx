@@ -1,10 +1,25 @@
 import React from "react";
 import { Tilt } from "react-tilt"; 
+import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
+
+// Animation variants
+const textVariant = {
+  hidden: { opacity: 0, y: 30 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      type: "spring",
+      duration: 0.8,
+      delay: 0.2,
+    },
+  },
+};
 
 const ProjectCard = ({
   index,
@@ -30,7 +45,6 @@ const ProjectCard = ({
             alt='project_image'
             className='w-full h-full object-cover rounded-2xl'
           />
-
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
@@ -68,10 +82,10 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <div className="mb-10" >
+      <motion.div variants={textVariant} initial="hidden" animate="show" className="mb-10">
         <p className={`${styles.sectionSubText}`}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
-      </div>
+      </motion.div>
 
       <div className='mt-20 flex flex-wrap gap-6'>
         {projects.map((project, index) => (

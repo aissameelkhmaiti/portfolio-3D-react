@@ -35,7 +35,8 @@ import {
   portfoliow,
   AlumHamza,
   mypi,
-  dashboradAlum
+  dashboradAlum,
+  bacapp
 } from "../assets";
 
 export const navLinks = [
@@ -211,6 +212,24 @@ const testimonials = [
 ];
 
 const projects = [
+    {
+    name: "moyenne bac app",
+    description:
+      " A responsive MERN stack site using Material UI and Tailwind CSS to display and manage aluminum projects.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: bacapp,
+    source_code_link: "https://moyenne-bac-apps.vercel.app/",
+  },
 
    {
     name: "Aluminium  Website",
