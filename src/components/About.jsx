@@ -11,6 +11,8 @@ import linkedin from "../assets/linkedin.svg";
 import x from "../assets/x.svg";
 import { logo, menu, close, github } from "../assets";
 import insta from "../assets/insta.png";
+import { DownloadOutlined } from "@ant-design/icons";
+
 
 const resumeDownloadLink = "https://drive.google.com/file/d/1zhZAyH1DADmtjs68H5sb7iHodyCt0483/view?usp=drive_link";
 
@@ -81,19 +83,16 @@ const About = () => {
           </div>
 
           {/* Resume Download */}
-          <a
-            className='mt-6 inline-flex items-center rounded-lg border bg-secondary px-6 py-2 text-black hover:bg-green-600 transition-all'
-            href={resumeDownloadLink}
-            download='CV_Aissame_El_Khmaiti.pdf'
-            rel='noreferrer'
-          >
-            <span className='mr-2'>Resume</span>
-            <img
-              className='h-5 w-5'
-              src='https://img.icons8.com/material-outlined/48/000000/link--v1.png'
-              alt='link icon'
-            />
-          </a>
+         <a
+  className='mt-6 inline-flex items-center rounded-2xl border bg-tertiary px-6 py-2 text-white hover:bg-green-600 transition-all'
+  href={resumeDownloadLink}
+  download='CV_Aissame_El_Khmaiti.pdf'
+  rel='noreferrer'
+>
+  <DownloadOutlined className="mr-2 text-lg" />
+  <span className='rounded-xl'>Resume</span>
+</a>
+
         </div>
 
         {/* 3D Image Section */}
