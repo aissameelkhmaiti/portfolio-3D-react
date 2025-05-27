@@ -20,6 +20,18 @@ const textVariant = {
     },
   },
 };
+const fadeIn = (delay = 0) => ({
+  hidden: { opacity: 0, y: 40 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      type: "spring",
+      duration: 0.75,
+      delay,
+    },
+  },
+});
 
 const ProjectCard = ({
   index,
@@ -30,7 +42,12 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <div className={`animated-card`} style={{ animationDelay: `${index * 0.9}s` }}>
+    <motion.div
+      variants={fadeIn(index * 0.3)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: true, amount: 0.3 }}
+    >
       <Tilt
         options={{
           max: 45,
@@ -75,7 +92,7 @@ const ProjectCard = ({
           ))}
         </div>
       </Tilt>
-    </div>
+    </motion.div>
   );
 };
 
