@@ -82,10 +82,17 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant} initial="hidden" animate="show" className="mb-10">
-        <p className={`${styles.sectionSubText}`}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
-      </motion.div>
+     <motion.div
+  variants={textVariant}
+  initial="hidden"
+  whileInView="show"
+  viewport={{ once: true, amount: 0.3 }}
+  className="mb-10"
+>
+  <p className={`${styles.sectionSubText}`}>My work</p>
+  <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+</motion.div>
+
 
       <div className='mt-20 flex flex-wrap gap-6'>
         {projects.map((project, index) => (
