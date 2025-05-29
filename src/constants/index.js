@@ -36,7 +36,8 @@ import {
   AlumHamza,
   mypi,
   dashboradAlum,
-  bacapp
+  bacapp,
+  vintique
 } from "../assets";
 
 export const navLinks = [
@@ -68,7 +69,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Full Stack Developer",
+    title: "Fullstack Developer",
     icon: mobile,
   },
   {
@@ -230,6 +231,32 @@ const projects = [
     image: bacapp,
     source_code_link: "https://moyenne-bac-apps.vercel.app/",
   },
+      {
+    name: "E-commerce website",
+    description:
+      " A responsive MERN stack site using Material UI and Tailwind CSS to display and manage aluminum projects.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+       {
+        name: "Express.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+       {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: vintique,
+    source_code_link: "https://moyenne-bac-apps.vercel.app/",
+  },
 
    {
     name: "Aluminium  Website",
@@ -247,10 +274,6 @@ const projects = [
       {
         name: "Mongodb",
         color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
       },
        {
         name: "Node.js",
@@ -277,10 +300,6 @@ const projects = [
         name: "Mongodb",
         color: "green-text-gradient",
       },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
-      },
        {
         name: "Node.js",
         color: "pink-text-gradient",
@@ -306,10 +325,6 @@ const projects = [
       {
         name: "Mongodb",
         color: "green-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "pink-text-gradient",
       },
        {
         name: "Node.js",
