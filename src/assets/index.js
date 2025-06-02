@@ -42,7 +42,7 @@ import meteo from "./meteo.png";
 import portfoliow from "./portfoliow.png";
 import AlumHamza from "./AlumHamza.png";
 import dashboradAlum from "./dashboradAlum.png";
-
+import Dashboard from "./Dashboard.png";
 export {
   logo,
   backend,
@@ -86,5 +86,6 @@ export {
   AlumHamza,
   dashboradAlum,
   bacapp,
-  vintique
+  vintique,
+  Dashboard
 };

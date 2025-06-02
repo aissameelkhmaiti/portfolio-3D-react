@@ -37,7 +37,9 @@ import {
   mypi,
   dashboradAlum,
   bacapp,
-  vintique
+  vintique,
+  Dashboard
+
 } from "../assets";
 
 export const navLinks = [
@@ -231,34 +233,9 @@ const projects = [
     image: bacapp,
     source_code_link: "https://moyenne-bac-apps.vercel.app/",
   },
-      {
-    name: "E-commerce website",
-    description:
-      " A responsive MERN stack site using Material UI and Tailwind CSS to display and manage aluminum projects.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-       {
-        name: "Express.js",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Mongodb",
-        color: "green-text-gradient",
-      },
-       {
-        name: "Node.js",
-        color: "pink-text-gradient",
-      },
-      
-    ],
-    image: vintique,
-    source_code_link: "https://moyenne-bac-apps.vercel.app/",
-  },
 
-   {
+
+  {
     name: "Aluminium  Website",
     description:
       " A responsive MERN stack site using Material UI and Tailwind CSS to display and manage aluminum projects.",
@@ -308,6 +285,60 @@ const projects = [
     image: dashboradAlum,
     source_code_link: "https://github.com/aissameelkhmaiti/aluminium-mern",
   },
+
+  {
+    name: "Website  Dashboard",
+    description:
+      " An admin panel built with MERN, Material UI, and Tailwind CSS for managing aluminum project content with full CRUD operations.",
+    tags: [
+    {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+       {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Dashboard,
+    source_code_link: "https://github.com/aissameelkhmaiti/aluminium-mern",
+  },
+      {
+    name: "E-commerce website",
+    description:
+      " A responsive MERN stack site using Material UI and Tailwind CSS to display and manage aluminum projects.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+       {
+        name: "Express.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+       {
+        name: "Node.js",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: vintique,
+    source_code_link: "https://moyenne-bac-apps.vercel.app/",
+  },
+
+   
   {
     name: "Blog App Raja",
     description:
