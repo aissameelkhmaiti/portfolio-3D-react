@@ -43,6 +43,7 @@ import portfoliow from "./portfoliow.png";
 import AlumHamza from "./AlumHamza.png";
 import dashboradAlum from "./dashboradAlum.png";
 import Dashboard from "./Dashboard.png";
+import todotask from "./todo-task.png";
 export {
   logo,
   backend,
@@ -87,5 +88,6 @@ export {
   dashboradAlum,
   bacapp,
   vintique,
-  Dashboard
+  Dashboard,
+  todotask
 };

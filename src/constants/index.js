@@ -38,7 +38,8 @@ import {
   dashboradAlum,
   bacapp,
   vintique,
-  Dashboard
+  Dashboard,
+  todotask
 
 } from "../assets";
 
@@ -215,6 +216,30 @@ const testimonials = [
 ];
 
 const projects = [
+          
+          {
+  name: "Todo Task App",
+  description:
+    "A full-stack task management application with user authentication (login/register), and task CRUD features. ",
+  tags: [
+    {
+      name: "Laravel",
+      color: "red-text-gradient",
+    },
+    {
+      name: "React",
+      color: "blue-text-gradient",
+    },
+    
+    {
+      name: "Tailwind CSS",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: todotask,
+  source_code_link: "https://github.com/aissameelkhmaiti/todo-task-backend",
+},
+
     {
     name: "moyenne bac app",
     description:
