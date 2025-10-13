@@ -14,7 +14,7 @@ import insta from "../assets/insta.png";
 import { DownloadOutlined } from "@ant-design/icons";
 
 
-const resumeDownloadLink = "https://drive.google.com/file/d/1zhZAyH1DADmtjs68H5sb7iHodyCt0483/view?usp=drive_link";
+const resumeDownloadLink = "https://drive.google.com/file/d/1zIlRJAGd11fxPWnvzxFHFbdhcoQcccO8/view?usp=sharing";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='w-full sm:w-[250px]'>

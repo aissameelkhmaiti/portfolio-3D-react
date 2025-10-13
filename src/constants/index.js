@@ -39,7 +39,10 @@ import {
   bacapp,
   vintique,
   Dashboard,
-  todotask
+  todotask,
+  incident2,
+  towcabuss,
+ 
 
 } from "../assets";
 
@@ -147,9 +150,24 @@ const technologies = [
     name: "WordPress",
     icon: docker,
   },
+ 
 ];
 
 const experiences = [
+{
+  title: "Full Stack Developer",
+  company_name: "2CA BUSINESS",
+  icon: towcabuss,
+  iconBg: "#E6DEDD",
+  date: "July 2025 - Present",
+  points: [
+    "Developed a complete application for managing calls, tickets, and notifications.",
+    "Maintained and enhanced the internal CRM application used by insurance agents.",
+    "Collaborated closely with business teams to understand functional requirements and deliver effective solutions.",
+    "Fixed bugs, refactored components, and improved performance and user experience.",
+    "Technologies used: Laravel, React.js, Vue.js, Tailwind CSS, Material UI, Ant Design, JWT, Design Patterns, Git.",
+  ],
+},
   {
     title: "Full Stack MERN Developer",
     company_name: "Arkx Talent Factory",
@@ -216,6 +234,30 @@ const testimonials = [
 ];
 
 const projects = [
+
+
+            {
+ name: "Call Management",
+description: "Development of a complete application for managing calls, tickets, and notifications with laravel react js tailwind .",
+
+  tags: [
+    {
+      name: "Laravel",
+      color: "red-text-gradient",
+    },
+    {
+      name: "React",
+      color: "blue-text-gradient",
+    },
+    
+    {
+      name: "Tailwind CSS",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: incident2,
+  source_code_link: "https://github.com/aissameelkhmaiti/todo-task-backend",
+},
           
           {
   name: "Todo Task App",

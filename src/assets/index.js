@@ -44,6 +44,9 @@ import AlumHamza from "./AlumHamza.png";
 import dashboradAlum from "./dashboradAlum.png";
 import Dashboard from "./Dashboard.png";
 import todotask from "./todo-task.png";
+import incident2 from "./incident2.jpg";
+import towcabuss from "./2cabuss.png";
+ 
 export {
   logo,
   backend,
@@ -89,5 +92,8 @@ export {
   bacapp,
   vintique,
   Dashboard,
-  todotask
+  todotask,
+  incident2,
+  towcabuss,
+ 
 };
