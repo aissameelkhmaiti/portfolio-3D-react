@@ -42,6 +42,8 @@ import {
   todotask,
   incident2,
   towcabuss,
+  rajashop,
+  
  
 
 } from "../assets";
@@ -234,6 +236,55 @@ const testimonials = [
 ];
 
 const projects = [
+
+     {
+
+                
+ name: "dashboard design",
+description: "Development of a complete application for e - commerce for raja club athlitic named raja shop calls",
+
+  tags: [
+    {
+      name: "Figma",
+      color: "red-text-gradient",
+    },
+    {
+      name: "Tabler icons",
+      color: "blue-text-gradient",
+    },
+    
+    {
+      name: "Charts",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: rajashop,
+  source_code_link: "https://rajashop.vercel.app",
+},
+              {
+
+                
+ name: "raja club athlitic",
+description: "Development of a complete application for e - commerce for raja club athlitic named raja shop calls",
+
+  tags: [
+    {
+      name: "Laravel",
+      color: "red-text-gradient",
+    },
+    {
+      name: "Next js",
+      color: "blue-text-gradient",
+    },
+    
+    {
+      name: "Tailwind CSS",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: rajashop,
+  source_code_link: "https://rajashop.vercel.app",
+},
 
 
             {

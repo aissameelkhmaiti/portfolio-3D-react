@@ -46,7 +46,7 @@ import Dashboard from "./Dashboard.png";
 import todotask from "./todo-task.png";
 import incident2 from "./incident2.jpg";
 import towcabuss from "./2cabuss.png";
- 
+import rajashop from "./rajashop.png";
 export {
   logo,
   backend,
@@ -95,5 +95,6 @@ export {
   todotask,
   incident2,
   towcabuss,
+  rajashop,
  
 };
