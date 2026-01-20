@@ -43,8 +43,9 @@ import {
   incident2,
   towcabuss,
   rajashop,
-  
- 
+  dashboardRajashop,
+
+
 
 } from "../assets";
 
@@ -91,11 +92,11 @@ const services = [
 ];
 
 export const Aboutimg = [
-   {
+  {
     name: "Me",
     icon: mypi,
   },
-  
+
 
 ];
 
@@ -152,24 +153,29 @@ const technologies = [
     name: "WordPress",
     icon: docker,
   },
- 
+
 ];
 
 const experiences = [
-{
-  title: "Full Stack Developer",
-  company_name: "2CA BUSINESS",
-  icon: towcabuss,
-  iconBg: "#E6DEDD",
-  date: "July 2025 - Present",
-  points: [
-    "Developed a complete application for managing calls, tickets, and notifications.",
-    "Maintained and enhanced the internal CRM application used by insurance agents.",
-    "Collaborated closely with business teams to understand functional requirements and deliver effective solutions.",
-    "Fixed bugs, refactored components, and improved performance and user experience.",
-    "Technologies used: Laravel, React.js, Vue.js, Tailwind CSS, Material UI, Ant Design, JWT, Design Patterns, Git.",
-  ],
-},
+  {
+    title: "Full Stack Developer",
+    company_name: "2CA BUSINESS",
+    icon: towcabuss,
+    iconBg: "#E6DEDD",
+    date: "January 2025 - December 2025",
+    points: [
+      "Design and development of full-stack applications using React, Vue 3, and Tailwind CSS",
+      "Development of Laravel and Node.js backends with secure RESTful APIs",
+      "Implementation of real-time communication (WebSockets) for notifications and data synchronization",
+      "Management of asynchronous processing using Jobs, Queues, and Event Listeners",
+      "Development of an HRM application (employee management, leave, and permissions)",
+      "Development of a call management application (call history and tracking)",
+      "Design and development of a full-featured CRM used by multiple business profiles",
+      "Performance optimization and application stability improvements",
+      "Working in an Agile / Scrum environment",
+      "Key Technologies: React, Vue 3, WebSockets, Node.js, Laravel, MySQL, REST APIs, Jobs & Queues, Events, Docker",
+    ],
+  },
   {
     title: "Full Stack MERN Developer",
     company_name: "Arkx Talent Factory",
@@ -205,7 +211,7 @@ const experiences = [
       "Managed social media pages (Facebook and Instagram), creating visual content with Canva and editing videos using Filmora.",
     ],
   },
- 
+
 ];
 
 const testimonials = [
@@ -237,103 +243,103 @@ const testimonials = [
 
 const projects = [
 
-     {
-
-                
- name: "dashboard design",
-description: "Development of a complete application for e - commerce for raja club athlitic named raja shop calls",
-
-  tags: [
-    {
-      name: "Figma",
-      color: "red-text-gradient",
-    },
-    {
-      name: "Tabler icons",
-      color: "blue-text-gradient",
-    },
-    
-    {
-      name: "Charts",
-      color: "pink-text-gradient",
-    },
-  ],
-  image: rajashop,
-  source_code_link: "https://rajashop.vercel.app",
-},
-              {
-
-                
- name: "raja club athlitic",
-description: "Development of a complete application for e - commerce for raja club athlitic named raja shop calls",
-
-  tags: [
-    {
-      name: "Laravel",
-      color: "red-text-gradient",
-    },
-    {
-      name: "Next js",
-      color: "blue-text-gradient",
-    },
-    
-    {
-      name: "Tailwind CSS",
-      color: "pink-text-gradient",
-    },
-  ],
-  image: rajashop,
-  source_code_link: "https://rajashop.vercel.app",
-},
+  {
 
 
-            {
- name: "Call Management",
-description: "Development of a complete application for managing calls, tickets, and notifications with laravel react js tailwind .",
+    name: "dashboard design",
+    description: "Development of a complete application for e - commerce for raja club athlitic named raja shop calls",
 
-  tags: [
-    {
-      name: "Laravel",
-      color: "red-text-gradient",
-    },
-    {
-      name: "React",
-      color: "blue-text-gradient",
-    },
-    
-    {
-      name: "Tailwind CSS",
-      color: "pink-text-gradient",
-    },
-  ],
-  image: incident2,
-  source_code_link: "https://github.com/aissameelkhmaiti/todo-task-backend",
-},
-          
-          {
-  name: "Todo Task App",
-  description:
-    "A full-stack task management application with user authentication (login/register), and task CRUD features. ",
-  tags: [
-    {
-      name: "Laravel",
-      color: "red-text-gradient",
-    },
-    {
-      name: "React",
-      color: "blue-text-gradient",
-    },
-    
-    {
-      name: "Tailwind CSS",
-      color: "pink-text-gradient",
-    },
-  ],
-  image: todotask,
-  source_code_link: "https://github.com/aissameelkhmaiti/todo-task-backend",
-},
+    tags: [
+      {
+        name: "Figma",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Tabler icons",
+        color: "blue-text-gradient",
+      },
 
-    {
+      {
+        name: "Charts",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dashboardRajashop,
+    source_code_link: "https://rajashop.vercel.app",
+  },
+  {
+
+
+    name: "raja club athlitic",
+    description: "Development of a complete application for e - commerce for raja club athlitic named raja shop calls",
+
+    tags: [
+      {
+        name: "Laravel",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Next js",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: rajashop,
+    source_code_link: "https://rajashop.vercel.app",
+  },
+
+
+  {
+    name: "Call Management",
+    description: "Development of a complete application for managing calls, tickets, and notifications with laravel react js tailwind .",
+
+    tags: [
+      {
+        name: "Laravel",
+        color: "red-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: incident2,
+    source_code_link: "https://github.com/aissameelkhmaiti/todo-task-backend",
+  },
+
+  {
+    name: "Todo Task App",
+    description:
+      "A full-stack task management application with user authentication (login/register), and task CRUD features. ",
+    tags: [
+      {
+        name: "Laravel",
+        color: "red-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: todotask,
+    source_code_link: "https://github.com/aissameelkhmaiti/todo-task-backend",
+  },
+
+  {
     name: "moyenne bac app",
     description:
       " A responsive MERN stack site using Material UI and Tailwind CSS to display and manage aluminum projects.",
@@ -346,7 +352,7 @@ description: "Development of a complete application for managing calls, tickets,
         name: "Tailwind",
         color: "pink-text-gradient",
       },
-      
+
     ],
     image: bacapp,
     source_code_link: "https://moyenne-bac-apps.vercel.app/",
@@ -370,7 +376,7 @@ description: "Development of a complete application for managing calls, tickets,
         name: "Mongodb",
         color: "green-text-gradient",
       },
-       {
+      {
         name: "Node.js",
         color: "pink-text-gradient",
       },
@@ -378,12 +384,12 @@ description: "Development of a complete application for managing calls, tickets,
     image: AlumHamza,
     source_code_link: "https://github.com/aissameelkhmaiti/front-end-alim",
   },
-   {
+  {
     name: "Aluminium  Dashboard",
     description:
       " An admin panel built with MERN, Material UI, and Tailwind CSS for managing aluminum project content with full CRUD operations.",
     tags: [
-    {
+      {
         name: "React",
         color: "blue-text-gradient",
       },
@@ -395,7 +401,7 @@ description: "Development of a complete application for managing calls, tickets,
         name: "Mongodb",
         color: "green-text-gradient",
       },
-       {
+      {
         name: "Node.js",
         color: "pink-text-gradient",
       },
@@ -409,7 +415,7 @@ description: "Development of a complete application for managing calls, tickets,
     description:
       " An admin panel built with MERN, Material UI, and Tailwind CSS for managing aluminum project content with full CRUD operations.",
     tags: [
-    {
+      {
         name: "React",
         color: "blue-text-gradient",
       },
@@ -421,7 +427,7 @@ description: "Development of a complete application for managing calls, tickets,
         name: "Mongodb",
         color: "green-text-gradient",
       },
-       {
+      {
         name: "Node.js",
         color: "pink-text-gradient",
       },
@@ -429,7 +435,7 @@ description: "Development of a complete application for managing calls, tickets,
     image: Dashboard,
     source_code_link: "https://github.com/aissameelkhmaiti/aluminium-mern",
   },
-      {
+  {
     name: "E-commerce website",
     description:
       " A responsive MERN stack site using Material UI and Tailwind CSS to display and manage aluminum projects.",
@@ -438,7 +444,7 @@ description: "Development of a complete application for managing calls, tickets,
         name: "React",
         color: "blue-text-gradient",
       },
-       {
+      {
         name: "Express.js",
         color: "pink-text-gradient",
       },
@@ -446,17 +452,17 @@ description: "Development of a complete application for managing calls, tickets,
         name: "Mongodb",
         color: "green-text-gradient",
       },
-       {
+      {
         name: "Node.js",
         color: "pink-text-gradient",
       },
-      
+
     ],
     image: vintique,
     source_code_link: "https://moyenne-bac-apps.vercel.app/",
   },
 
-   
+
   {
     name: "Blog App Raja",
     description:
@@ -475,7 +481,7 @@ description: "Development of a complete application for managing calls, tickets,
         name: "Mongodb",
         color: "green-text-gradient",
       },
-       {
+      {
         name: "Node.js",
         color: "pink-text-gradient",
       },
@@ -529,7 +535,7 @@ description: "Development of a complete application for managing calls, tickets,
     image: rental,
     source_code_link: "https://github.com/aissameelkhmaiti/site-e-commerce-php-mysql",
   },
-   {
+  {
     name: "Movie  Landing Page",
     description:
       "A visually engaging HTML/CSS landing page designed to showcase a film with responsive layout and bold visuals.",
@@ -542,17 +548,17 @@ description: "Development of a complete application for managing calls, tickets,
         name: "Css",
         color: "green-text-gradient",
       },
-      
+
     ],
     image: movie,
     source_code_link: "https://github.com/aissameelkhmaiti/stage-pfe",
   },
-   {
+  {
     name: "Incident Management ",
     description:
       "A web app using PHP, JavaScript, Bootstrap, AJAX, and MySQL for reporting and tracking incidents in real time.",
     tags: [
-     {
+      {
         name: "Php",
         color: "blue-text-gradient",
       },
@@ -572,7 +578,7 @@ description: "Development of a complete application for managing calls, tickets,
     image: incident,
     source_code_link: "https://github.com/aissameelkhmaiti/stage-pfe",
   },
-   {
+  {
     name: "Weather Application",
     description:
       " A real-time weather app built with HTML, CSS, JavaScript, and a REST API to display current conditions and forecasts.",
@@ -597,7 +603,7 @@ description: "Development of a complete application for managing calls, tickets,
     image: meteo,
     source_code_link: "https://github.com/aissameelkhmaiti/Application-Meteo-javascript-api",
   },
-   {
+  {
     name: "WordPress Portfolio ",
     description:
       "A customizable and SEO-optimized portfolio built with WordPress to showcase projects and experience professionally.",
@@ -611,9 +617,9 @@ description: "Development of a complete application for managing calls, tickets,
     image: portfoliow,
     source_code_link: "https://github.com/syedahmedullah14",
   },
-   
-  
-  
+
+
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

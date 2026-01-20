@@ -110,7 +110,6 @@ const Works = () => {
   <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
 </motion.div>
 
-
       <div className='mt-20 flex flex-wrap gap-6'>
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
